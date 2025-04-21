@@ -61,3 +61,64 @@ h1, h2, h3, h4 {
     border-radius: 4px;
     font-family: monospace;
   }
+
+  /*LAYOUT*/
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  section {
+    background-color: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  /*HEADER*/
+  header {
+    background: linear-gradient(to right, #1d1d1d, #2c2c2c);
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #E63946;
+  }
+  
+  /*NAVIGATION*/
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    background-color: #2a2a2a;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    background-color: #E63946;
+    color: #fff;
+  }
+  
+  /*IMAGES & MEDIA*/
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /*FOOTER*/
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    color: #A8DADC;
+    border-top: 1px solid #2a2a2a;
+  }
