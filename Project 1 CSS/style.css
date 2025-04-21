@@ -122,3 +122,30 @@ main {
     color: #A8DADC;
     border-top: 1px solid #2a2a2a;
   }
+
+  /*RESPONSIVE DESIGN*/
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    main {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  
