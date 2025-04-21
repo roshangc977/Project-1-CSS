@@ -1,0 +1,22 @@
+/*IMPORT FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;800&display=swap');
+
+/*BODY STYLING*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: #121212;
+  color: #F1FAEE;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  padding: 1rem;
+}
